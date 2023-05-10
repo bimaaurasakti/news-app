@@ -28,8 +28,6 @@ class Article {
     publishedAt = article['publishedAt'];
     content = article['content'];
   }
-
-
 }
 
 List<Article> parseArticles(String? json) {
